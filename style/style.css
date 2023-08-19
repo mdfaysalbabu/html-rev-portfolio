@@ -64,7 +64,15 @@ nav li{
 
 }
 .btn-contact{
-    
+    height: 64px;
+   border-radius: 5px;
+   background-color: teal;
+   color: white;
+   font-size: 20px;
+   border: 0;
+   font-weight: 800;
+   padding:18px 35px;
+   margin-top: 20px;
 }
 .main{
     max-width: 1140px;
@@ -117,6 +125,7 @@ nav li{
 .what-flex{
    display: flex;
    justify-content: center;
+   gap: 24px;
 }
 .what-head{
    
@@ -129,10 +138,12 @@ img{
 
 }
 .vanilla-div{
-    margin-right: 15px;
+    background: white;
     text-align: start;
-    box-shadow: azure;
+    box-shadow:0px 6px 50px rgb(135, 149, 149);
     box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px;
 }
 /* summary section */
 .summary-section{
@@ -177,4 +188,38 @@ img{
 hr{
     margin-top: 15px;
     margin-right: 15px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(223, 211, 196);
+    margin-top: 20px;
+    
+}
+.footer-section{
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+}
+.footer-title{
+
+}
+.footer-dec{
+  font-size: 20px;
+}
+.icon{
+  margin-top: 10px;
+
+}
+.contact-edu-title{
+    text-align: left;
+}
+.contact input,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding-left: 28px;
+}
+input{
+    height: 64px;
 }
