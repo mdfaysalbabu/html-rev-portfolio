@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    font-family:'Open Sans', sans-serif;
+}
+.header{
+    
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 20px;
+}
+
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
+}
+.primary-color{
+    color: rgb(210, 144, 21);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.btn{
+   height: 64px;
+   border-radius: 5px;
+   background-color: orange;
+   color: white;
+   font-size: 20px;
+   border: 0;
+   font-weight: 800;
+   padding:18px 35px;
+   margin-top: 20px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+   font-weight: 600;
+   font-size: 45px;
+}
+.sub-title{
+ font-weight: 800;
+ font-size: 85px;
+}
+.banner-description{
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.btn-contact{
+    
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about-section{
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  padding: 130px 150px;
+  
+}
+.about-title{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 10px;
+
+}
+.about-description{
+   text-align: center;
+   font-size: 28px;
+   margin-bottom: 20px;
+}
+.about-flex{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.marry{
+  
+}
+
+/* what section */
+.what-section{
+  margin-top: 20px;
+  text-align: center;
+ border-radius: 10px;
+}
+.what-title{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.what-description{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.what-flex{
+   display: flex;
+   justify-content: center;
+}
+.what-head{
+   
+}
+.what-subDescription{
+  margin-top: 10px;
+  font-size: 24px;
+}
+img{
+
+}
+.vanilla-div{
+    margin-right: 15px;
+    text-align: start;
+    box-shadow: azure;
+    box-shadow: 20px;
+}
+/* summary section */
+.summary-section{
+  margin-top: 20px;
+  text-align: center;
+  
+}
+.summer-header{
+  font-size: 35px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.edu-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.education{
+   text-align: start;
+   
+}
+.master{
+  
+}
+.summer-title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+.summer-sub{
+  font-size: 26px;
+}
+.summer-description{
+  margin-top: 10px;
+  font-size: 24px;
+}
+.summer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    margin-top: 15px;
+    margin-right: 15px;
+}
